@@ -1,11 +1,11 @@
-# resched_jd434
+# memory_fragmentation_count_trace
 
 **追溯训练资源调度工程师·显存碎片与分配策略里每一份贡献来自哪里。**
 
-`resched_jd434` —— 统计各来源片段的贡献量与占比，标出训练资源调度工程师·显存碎片与分配策略上最主要的来源
+`memory_fragmentation_count_trace` —— 统计各来源片段的贡献量与占比，标出训练资源调度工程师·显存碎片与分配策略上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`resched_jd434.py` 拷走就能用
+- 单文件，`memory_fragmentation_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install ireneussig-resched_jd434
+pip install ireneussig-memory_fragmentation_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-resched_jd434 --help
+memory_fragmentation_count_trace --help
 ```
 
-也可以不用安装，直接把 `resched_jd434.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `memory_fragmentation_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ resched_jd434 --help
 ## 用法
 
 ```bash
-python resched_jd434.py --file input.txt
-python resched_jd434.py --text "示例内容"
-python resched_jd434.py --file input.txt --json
+python memory_fragmentation_count_trace.py --file input.txt
+python memory_fragmentation_count_trace.py --text "示例内容"
+python memory_fragmentation_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python resched_jd434.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_resched_jd434.py
+python test_memory_fragmentation_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_resched_jd434.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/ireneussig/resched_jd434>
+- GitHub 仓库：<https://github.com/ireneussig/memory_fragmentation_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_resched_jd434.py
 ireneussig 做训练资源调度工程师·显存碎片与分配策略相关的问题，方向对标腾讯的实习训练资源调度工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://ireneussig.github.io>
-- 仓库：<https://github.com/ireneussig/resched_jd434>
+- 仓库：<https://github.com/ireneussig/memory_fragmentation_count_trace>
 
 ## 许可
 

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ireneussig-resched_jd434"
+name = "ireneussig-memory_fragmentation_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出训练资源调度工程师·显存碎片与分配策略上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://ireneussig.github.io"
-Repository = "https://github.com/ireneussig/resched_jd434"
-Issues = "https://github.com/ireneussig/resched_jd434/issues"
+Repository = "https://github.com/ireneussig/memory_fragmentation_count_trace"
+Issues = "https://github.com/ireneussig/memory_fragmentation_count_trace/issues"
 
 [project.scripts]
-resched_jd434 = "resched_jd434:main"
+memory_fragmentation_count_trace = "memory_fragmentation_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["resched_jd434"]
+py-modules = ["memory_fragmentation_count_trace"]
